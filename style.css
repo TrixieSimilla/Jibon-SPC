@@ -367,14 +367,12 @@ img {
 .mbc_wrapper{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /* gap: .5rem; */
 }
 /* MBC Logo */
 .mbc_logo{
   height: 35rem;
   background-color: var(--light);
   padding: 4rem;
-  /* border-radius: .5rem; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -384,6 +382,61 @@ img {
 .mbc_logo span{
   color: var(--green);
   font-size: 15rem;
+}
+
+
+
+/* LATEST PROJECT */
+.mlp{
+  padding: 5rem 0;
+}
+.mlp_title{
+  text-align: center;
+}
+.mlp_title h3{
+  font-size: 5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.mlp_title p{
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+.mlp_wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Proj */
+.mlp_proj img{
+  height: 80rem;
+  margin-top: 4rem;
+  width: 45rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mlp_proj p{
+    font-size:2rem;
+    color: var(--gray);
+    font-weight: 500;
+    max-width: 20rem;
+}
+.mlp_proj h4{
+  color: var(--gray);
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+}
+.mlp_proj a{
+  border-radius: 1rem;
+  color: var(--gray);
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
 }
 
 
